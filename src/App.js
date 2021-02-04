@@ -39,7 +39,7 @@ function App() {
 			return setResult(
 				<div>
 					<h5>Du har rett til dagpenger</h5>
-					<h5>din dagsats: {Math.floor(dagsats)}</h5>
+					<h5>din dagsats: {Math.ceil(dagsats)}</h5>
 				</div>
 			);
 		} else {
